@@ -43,5 +43,6 @@ int main(){
         printf("%d,",temp);
     }
     printf("totel have %d prime , them plus = %d",cnt,ans);
+    free(ans_sheet);
     return 0;
 }
